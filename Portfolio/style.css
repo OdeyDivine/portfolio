@@ -1,0 +1,98 @@
+:root{
+    --primary: #212121;
+    --text: #CC3366;
+    --background: #3399FF;
+    --ascent: #EEEEEE;
+
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: var(--primary);
+    line-height: 1.6;
+    color: var(--ascent);
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    position: sticky;
+    z-index: 100;
+    top: 0;
+    background-color: white;
+    color: var(--primary);
+}
+.logo{
+    color: var(--primary);
+    font-family: cursive;
+    font-size: 15px;
+    border: 1px solid var(--primary);
+    padding: 2px;
+    border-radius: 7px;
+}
+nav{
+    display: none;
+}
+.bar i{
+    color: black;
+}
+
+/* hero,  */
+.hero{
+    padding-top: 10px;
+    background-color: var(--primary);
+    color: #EEEEEE;
+    padding: 10px;
+}
+h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+}
+.hero img{
+    height: 100%;
+    background-size: cover;
+    width: 100%;
+    border-radius: 20px;
+}
+.hero p{
+    font-size: 25px;
+    text-align: center;
+}
+p{
+    font-size: 20px;
+    /* align-items: center;
+    justify-content: center; */
+}
+
+/* about */
+.about{
+    padding: 0 10px;
+    text-wrap: unset;
+}
+.projects_container{
+    color: black;
+    background-color: var(--ascent);
+    margin: 0 10px;
+    border-radius: 7px;
+}
+.project_head h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 27px;
+    border: 1px solid var(--primary);
+    border-radius: 2px;
+}
+.individual{
+    padding-bottom: 15px;
+    border-bottom: 1px solid var(--primary);
+}
+.individual h2{
+    font-size: 22px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
